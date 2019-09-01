@@ -1,6 +1,6 @@
 {
   "name": "styletxt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Style text from a post or text in general to assign properties of CSS3",
   "main": "index.js",
   "scripts": {
