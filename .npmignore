@@ -1,8 +1,4 @@
+node_modules
 .github
-node_modules/
-src/
-styles/
-test/
 .eslintrc.js
 .gitignore
-webpack.config.js

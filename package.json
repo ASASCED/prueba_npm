@@ -9,15 +9,11 @@
   "standard": {
     "ignore": [
       "node_modules/",
-      "src//",
-      "styles/",
-      "test/",
       ".gitignore",
       ".npmignore",
       "package-lock.json",
       "package.json",
-      "README.md",
-      "webpack.config.js"
+      "README.md"
     ]
   },
   "repository": {
