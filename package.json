@@ -1,10 +1,24 @@
 {
   "name": "styletxt",
   "version": "0.1.1",
-  "description": "Style text from a post or text in general to assign properties of CSS3",
+  "description": "Set an style to your plain text on your web page only selecting the text that you want custom.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/",
+      "src//",
+      "styles/",
+      "test/",
+      ".gitignore",
+      ".npmignore",
+      "package-lock.json",
+      "package.json",
+      "README.md",
+      "webpack.config.js"
+    ]
   },
   "repository": {
     "type": "git",
@@ -25,5 +39,14 @@
     "url": "https://github.com/ASASCED/StyleTXT/issues"
   },
   "homepage": "https://github.com/ASASCED/StyleTXT#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "standard": "^14.1.0"
+  }
 }

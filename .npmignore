@@ -3,6 +3,6 @@ node_modules/
 src/
 styles/
 test/
+.eslintrc.js
 .gitignore
-package-lock.json
 webpack.config.js

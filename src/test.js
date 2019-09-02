@@ -1,4 +1,4 @@
-import st from './../index';
-import './../styles/highlight.css';
+import st from './../index'
+import './../styles/highlight.css'
 
-st.stTxt("WHITE", "ORANGE");
+st.stTxt('WHITE', 'ORANGE')
