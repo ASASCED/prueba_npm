@@ -6,7 +6,8 @@ module.exports = {
    * @example
    * stTxt("WHITE", "ORANGE");
    */
-  stTxt
+  stTxt,
+  stSize
 }
 
 let auto = 0
@@ -16,6 +17,7 @@ function stTxt (color, backgroundColor) {
     if (window.getSelection().toString().length > 0) {
       const element = document.createElement('span')
       element.setAttribute('id', `stElement${auto}`)
+      element.setAttribute('class', 'stElement')
       window
         .getSelection()
         .getRangeAt(0)
@@ -23,8 +25,8 @@ function stTxt (color, backgroundColor) {
       const selectedElement = document.getElementById(`stElement${auto}`)
       selectedElement.style.color = color
       selectedElement.style.backgroundColor = backgroundColor
-      auto++
       window.getSelection().removeAllRanges()
+      auto++
     }
   }
 }
