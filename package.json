@@ -1,6 +1,6 @@
 {
   "name": "styletxt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Set an style to your plain text on your web page only selecting the text that you want custom.",
   "main": "index.js",
   "scripts": {
